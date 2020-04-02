@@ -130,8 +130,8 @@ li {
   width: 60%;
 }
 
-.contents-wrapper {
-  text-align: start;
+.contents-sub-title {
+  margin-right: 50%;
 }
   
 /*.sub-title {

@@ -113,9 +113,13 @@ li {
   border-left: solid 5px #7db4e6;
   border-radius: 5px;
   width: 60%;
-  text-align: start;
+  text-align: left;
   color: rgba(51, 153, 0, 1);
   letter-spacing: 1px;
+}
+
+.contents-sub-title {
+  margin-right: 50%;
 }
 
 .text-profile {
@@ -128,10 +132,6 @@ li {
 
 .contents-wrapper {
   text-align: start;
-}
-
-.contents-sub-title {
-  text-align: left;
 }
   
 /*.sub-title {

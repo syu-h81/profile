@@ -130,6 +130,10 @@ li {
   text-align: start;
 }
 
+.contents-sub-title {
+  text-align: left;
+}
+  
 /*.sub-title {
 text-align: left;
 background-color: rgba(221, 221, 221, 0.6);

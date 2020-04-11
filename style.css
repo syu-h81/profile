@@ -30,7 +30,7 @@ header .container {
 }
 
 .header-left {
-  padding-left: 5%;
+  padding-left: 2%;
 }
 
 .title {
@@ -44,6 +44,7 @@ header .container {
 
 .main-nav {
   display: flex;
+  justify-content: center;
 }
 
 li {
@@ -98,6 +99,8 @@ li {
 
 .btn:hover {
   cursor: pointer;
+  box-shadow: 0 8px 3px -3px rgba(0, 0, 0, 0.6);
+  opacity: 0.9;
 }
 
 .profile-contents {
@@ -119,7 +122,7 @@ li {
 }
 
 .contents-sub-title {
-  background-color: rgba(221, 221, 221, 0.6);
+  background-color: rgba(208, 227, 155, 0.4);
   display: inline-block;
   padding: 15px 0;
   padding-left: 10px;
@@ -139,31 +142,63 @@ li {
   padding-left: 90px;
   width: 60%;
 }
- 
-/*.sub-title {
-text-align: left;
-background-color: rgba(221, 221, 221, 0.6);
-border-left: 5px solid #7db4e6;
-padding: 5px 0 5px 10px;
-margin-top: 60px;
-width: 70%;
-color: #00a096;
-letter-spacing: 1px;
-}*/
+
+.top-wrapper .works-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+.production-img-contents {
+  /*padding-bottom: 10%;*/
+}
+
+.production-img {
+  width: 500px;
+  height: 400px;
+}
+
+.works-profile {
+  /*padding: 12% 25% 10% 0;*/
+  padding-top: 5%;
+  padding-right: 10%;
+  text-align: justify;
+  letter-spacing: 1px;
+}
+
+.works-title {
+  font-family: serif;
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+.text-works {
+  line-height: 150%;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.contents-wrapper .container {
+  display: flex;
+  justify-content: space-between;
+}
 
 .contents {
   text-align: center;
   display: grid;
   grid-template-columns: 350px 350px;
   grid-template-rows: 350px 350px 350px;
-  gap: 20px;
+  gap: 10px;
   padding-left: 2%;
 }
 
 .content {
-  border: 1px solid #f6efdb;
+  border: 1px solid #f0fff0;
   border-radius: 5px;
-  background-color: rgba(221, 221, 221, 0.3);
+  background-color: rgba(240, 255, 240, 1);
 }
 
 .content:hover {
@@ -180,4 +215,140 @@ letter-spacing: 1px;
 .text-content {
   font-weight: bold;
   padding: 0 15px;
+}
+
+.contents-right {
+  padding-left: 6%;
+}
+
+.my-pro-content {
+  background-color: rgba(255, 250, 250, 1);
+  width: 80%;
+  border: 1px solid #fffafa;
+  border-radius: 5px;
+  margin-top: 30%;
+}
+
+.my-pro-img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.my-pro-name {
+  font-weight: normal;
+  font-family: serif;
+}
+
+.text-pro {
+  text-align: justify;
+  margin: 0 10px;
+  font-family: century;
+  letter-spacing: 1px;
+}
+
+.my-pro-btn {
+  background-color: rgba(59, 130, 196, 1);
+  text-align: center;
+  color: #fff;
+  padding: 5px 10px;
+  margin: 0 30px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+.my-sns {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0;
+}
+
+.sns {
+  border-radius: 50%;
+  padding: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+.sns a {
+  color: #fff;
+}
+
+.twitter {
+  background-color: #3ab4ff;
+}
+
+.instagram {
+  background-image: linear-gradient(#8490c8, #ed1c24);
+}
+
+.facebook {
+  background-color: #3b8df7;
+}
+
+.my-pro {
+  background-color: rgba(166, 206, 57, 1);
+}
+
+.production-wrapper .production-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.production-left {
+  text-align: justify;
+}
+
+.production-top-img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.production-title {
+  background-color: rgba(255, 250,250, 1);
+  border-left: 4px solid #ffa500;
+  padding: 5px 0;
+  padding-left: 5px;
+  margin-bottom: 30px;
+}
+
+.production-sub-title {
+  border-bottom: 2px solid #ffa500;
+  letter-spacing: 1px;
+}
+
+.text-production {
+  letter-spacing: 1px;
+  line-height: 180%;
+  margin-bottom: 20px;
+}
+
+table {
+  margin-bottom: 50px;
+}
+
+.td-title {
+  background-color: rgba(255, 140, 0, 1);
+  color: #fff;
+  padding: 10px 25px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.text-td {
+  width: 60%;
+  background-color: rgba(221, 221, 221, 0.6);
+  padding: 10px 5px;
+}
+
+.portfolio {
+  width: 100%;
+  height: auto;
+}
+
+.production-pro-content {
+  margin-top: 100%;
+  /*width: 70%;*/
 }

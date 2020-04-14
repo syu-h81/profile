@@ -13,9 +13,8 @@ $(function() {
     }
   });
 
-  //$('#menu-show').click(
-    //function() {
-      //$('.menu-nav-wrapper').slideToggle();
-    //});
+  $('#menu-show').click(function() {
+    $('.menu-nav-wrapper').slideToggle();
+  });
 
 });

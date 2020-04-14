@@ -1,4 +1,10 @@
 @media (max-width:600px) {
+  
+  .title {
+    font-weight: normal;
+    font-family: serif;
+    font-size: 22px;
+  }
 
   .main-nav a {
     display: none;
@@ -39,7 +45,7 @@
   }
 
   .my-icon {
-    width: 60%;
+    width: 40%;
     height: auto;
   }
 

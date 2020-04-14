@@ -47,10 +47,18 @@ header .container {
   justify-content: center;
 }
 
+.menu-icon {
+  display: none;
+}
+
 li {
   list-style: none;
   padding: 0 20px;
   letter-spacing: 1px;
+}
+
+.menu-nav-wrapper {
+  display: none;
 }
 
 .top-wrapper {

@@ -125,6 +125,11 @@
     height: 100%;
   }
   
+  .content-img {
+    width: 100%;
+    height: auto;
+  }
+  
   .text-content {
     font-weight: normal;
     padding: 0 20px;

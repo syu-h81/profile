@@ -133,6 +133,7 @@
   .text-content {
     font-weight: normal;
     padding: 0 20px;
+    letter-spacing: 1px;
   }
 
   .contents-right {

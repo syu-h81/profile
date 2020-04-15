@@ -82,10 +82,11 @@
   .works-profile {
     text-align: center;
     padding: 0;
+    margin-bottom: 30px;
   }
 
   .works-title {
-    margin: 0;
+    margin: 20px 0;
   }
 
   .text-works {
@@ -114,6 +115,11 @@
     grid-template-columns: 100%;
     grid-template-rows: 15%;
     padding: 0;
+  }
+  
+  .text-content {
+    font-weight: normal;
+    padding: 0 20px;
   }
 
   .contents-right {

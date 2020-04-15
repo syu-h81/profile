@@ -112,9 +112,17 @@
 
   .contents {
     display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 15%;
+    /*grid-template-columns: 100%;
+    grid-template-rows: 15%;*/
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 35% 35% 35%;
+    gap: 10px;
     padding: 0;
+  }
+  
+  .content {
+    background-color: rgba(255, 248, 220, 1);
+    height: 100%;
   }
   
   .text-content {

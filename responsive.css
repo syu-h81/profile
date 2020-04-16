@@ -114,7 +114,7 @@
     display: grid;
     /*grid-template-columns: 100%;
     grid-template-rows: 15%;*/
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 48% 48%;
     grid-template-rows: 35% 35% 35%;
     gap: 10px;
     padding: 0;
@@ -132,7 +132,7 @@
   
   .text-content {
     font-weight: normal;
-    padding: 0 20px;
+    padding: 0 5px;
     letter-spacing: 1px;
   }
 

@@ -67,6 +67,28 @@
   .top-wrapper {
     height: auto;
   }
+  
+  .works {
+  display: grid;
+}
+
+.work {
+  margin: 0 5%;
+  margin-bottom: 5%;
+  border: 2px double #000;
+}
+
+.work-sub-title {
+  margin-top: 0;
+}
+  
+  
+  
+  
+  
+  
+  
+  /*works.htmlのスタイルシート*/
 
   .top-wrapper .works-container {
     margin: 0;

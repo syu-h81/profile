@@ -114,17 +114,17 @@ li {
 
 .profile-contents {
   display: none;
+  width: 70%;
 }
 
 .sub-title {
   background-color: rgba(221, 221, 221, 0.6);
-  display: inline-block;
   padding: 15px 0;
   padding-left: 10px;
-  margin-right: 25%;
+  margin: 2% 0;
+  /*margin-right: 25%;*/
   border-left: solid 5px #7db4e6;
   border-radius: 5px;
-  width: 60%;
   text-align: left;
   color: rgba(51, 153, 0, 1);
   letter-spacing: 1px;
@@ -148,8 +148,7 @@ li {
   letter-spacing: 1px;
   text-align: justify;
   line-height: 40px;
-  padding-left: 90px;
-  width: 60%;
+  /*padding-left: 8%;*/
 }
 
 .top-wrapper .works-container {
